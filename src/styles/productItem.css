@@ -1,0 +1,104 @@
+.shoe-image {
+    width: 100%;
+    margin: 10px;
+    border-radius: 60px;
+    height: auto;
+}
+
+.cart-image {
+    height: 30px;
+}
+
+.cart-button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: #efd2d2;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+
+.cart-button:hover {
+    background: #3e8e41ce;
+}
+
+.cart-button:active {
+    background-color: #3b953e;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.back-btn {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.63);
+    padding: 4px;
+    margin: 20px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.image-container {
+    width: 80%;
+}
+
+.detail-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 40px 30px;
+}
+
+.shoe-name {
+    font-size: 24px;
+}
+
+.shoe-price {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 500px) {
+    .products {
+        width: 300px;
+        height: 250px;
+    }
+
+    .products-shoe-image {
+        height: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .cart-image {
+        height: 20px;
+    }
+
+    .products {
+        width: 200px;
+        height: 220px;
+    }
+
+    .products-shoe-image {
+        height: 80px;
+    }
+
+    .shoe-name {
+        font-size: 12px;
+    }
+
+    .shoe-price {
+        font-size: 14px;
+    }
+}

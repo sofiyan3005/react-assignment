@@ -1,0 +1,166 @@
+/* Product */
+
+/* .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.products {
+    margin: 10px 10px;
+    text-decoration: none;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 7px #363236;
+    width: 350px;
+    height: 300px;
+}
+
+.products-shoe-image {
+    height: 150px;
+}
+
+.shoe-name {
+    color: #5d0137;
+}
+
+.shoe-price {
+    color: rgb(96, 110, 96);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Product Items */
+/*  */
+
+.products-list-container {
+    padding: 0 30px 30px;
+}
+
+.product {
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 500ms ease-out;
+    border: 1px solid #ddd;
+}
+
+.product:hover {
+    box-shadow: 0 13px 21px -5px rgba(0, 0, 0, 0.2);
+}
+
+.product:hover .image_overlay {
+    opacity: 0.7;
+}
+
+.product:hover .view_details {
+    opacity: 1;
+    width: 152px;
+    font-size: 15px;
+    margin-left: -75px;
+    top: 25%;
+    transition: all 200ms ease-out;
+}
+
+.stats-container a {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    color: inherit;
+}
+
+.stats-container a:active, .stats-container a:visited {
+    color: inherit;
+}
+
+button.margin-r {
+    margin-right: 10px;
+}
+
+.product-image-container {
+    padding: 0 30px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product.compare .image_overlay {
+    opacity: 0.7;
+}
+
+.product .stats-container {
+    background: #fff;
+    padding: 25px 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+}
+
+.padding-b {
+    padding-bottom: 10px;
+}
+
+.add-to-cart-container {
+    width: 100%;
+}
+
+.product .stats-container .product_name {
+    font-size: 16px;
+    color: #393c45;
+}
+
+.product .stats-container p {
+    font-size: 16px;
+    color: #b1b1b3;
+    margin: 0;
+}
+
+.product .stats-container .product_price {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.product .image_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #48cfad;
+    opacity: 0;
+    transition: all 200ms ease-out;
+}
+
+.product .view_details {
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    margin-left: -85px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 172px;
+    opacity: 0;
+    transition: all 200ms ease-out;
+}
+
+.product .view_details:hover {
+    background: #fff;
+    color: #48cfad;
+    cursor: pointer;
+}

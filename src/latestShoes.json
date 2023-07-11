@@ -1,0 +1,30 @@
+{
+  "shoe1": {
+    "name": "Flex Experience Run 9",
+    "img": "https://m.media-amazon.com/images/I/61WBg7crTQL._AC_SR700,525_.jpg",
+    "price": 65.0,
+    "size": [9, 10, 11],
+    "color": "Black"
+  },
+  "shoe2": {
+    "name": "Flex Control 4",
+    "img": "https://m.media-amazon.com/images/I/71Cc3JcCN7L._AC_SR700,525_.jpg",
+    "price": 65.0,
+    "size": [9],
+    "color": "Gray"
+  },
+  "shoe3": {
+    "name": "Air Max Motion 2",
+    "img": "https://m.media-amazon.com/images/I/61IPQlMjDkL._AC_SR700,525_.jpg",
+    "price": 84.95,
+    "size": [8, 10, 11],
+    "color": "White"
+  },
+  "shoe4": {
+    "name": "Phantom GT Club DF FG/MG",
+    "img": "https://m.media-amazon.com/images/I/81kz-cAPItL._AC_SR700,525_.jpg",
+    "price": 65.0,
+    "size": [9, 10],
+    "color": "Black"
+  }
+}

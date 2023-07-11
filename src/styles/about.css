@@ -1,0 +1,188 @@
+/* About */
+
+.banner-image-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/nike1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 1rem;
+  }
+  
+  .about-nike {
+    margin-right: 60%;
+    padding: 20px;
+    padding-top: 230px;
+  }
+  
+  .about-nike-text {
+    font-size: 25px;
+    color: black;
+    font-family: "Rowdies", cursive;
+  }
+  
+  .about-nike > p {
+    margin: 20px;
+    font-family: "Rowdies", cursive;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .about-nike-part {
+    margin: 40px;
+    padding: 40px;
+  }
+  
+  .about-nike-heading {
+    font-family: "Rowdies", cursive;
+    margin: 20px;
+    font-size: 40px;
+    color: #5fa5ff;
+    font-variant: small-caps;
+  }
+  
+  .about-nike-para {
+    font-family: "Rowdies", cursive;
+    padding: 0px;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 1000px) {
+    .about-nike {
+      padding-top: 400px;
+    }
+  
+    .about-nike-text {
+      font-size: 20px;
+    }
+  
+    .about-nike > p {
+      font-size: 14px;
+    }
+  
+    .about-nike-heading {
+      font-size: 30px;
+    }
+  
+    .about-nike-part {
+      margin: 2px;
+    }
+  
+    .about-nike-para {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .banner-image-about {
+      height: 50vh;
+    }
+  
+    .about-nike {
+      padding-top: 90px;
+    }
+  
+    .about-nike-heading {
+      padding: 0;
+    }
+  
+    .about-nike-part {
+      padding: 2px;
+    }
+  
+    .about-nike > p {
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .banner-image-about {
+      height: 40vh;
+    }
+  
+    .about-nike {
+      padding-top: 90px;
+    }
+  
+    .about-nike-heading {
+      padding: 0;
+    }
+  
+    .about-nike-part {
+      padding: 2px;
+    }
+  
+    .about-nike > p {
+      font-size: 11px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .about-nike {
+      padding-top: 120px;
+    }
+  
+    .about-nike > p {
+      font-size: 8px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .about-nike-text {
+      font-size: 13px;
+    }
+  
+    .about-nike-heading {
+      font-size: 25px;
+    }
+  
+    .about-nike-para {
+      font-size: 12px;
+    }
+  
+    .about-nike {
+      padding-top: 100px;
+    }
+  
+    .about-nike > p {
+      font-size: 7px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .about-nike-text {
+      font-size: 11px;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .about-nike-heading {
+      font-size: 23px;
+      padding: 0;
+    }
+  
+    .about-nike-para {
+      font-size: 10px;
+    }
+  
+    .about-nike {
+      padding-top: 100px;
+    }
+  
+    .about-nike > p {
+      padding: 0;
+      margin: 1;
+      font-size: 5px;
+    }
+  
+    .about-nike {
+      padding: 0;
+      padding-top: 150px;
+    }
+  }

@@ -1,0 +1,135 @@
+/* Order Summary */
+.place-order-parent {
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  
+  .place-order-container {
+    width: 600px;
+    margin: 2rem auto;
+    background-color: #e0e0e0c9 !important;
+    min-height: 70vh;
+    border-radius: 20px;
+    box-shadow: -6px -6px 10px rgb(133, 116, 116);
+    border: 1px solid rgba(121, 104, 104, 0.287);
+    padding: 20px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .card-content h3.title{
+    font-size: 20px;
+  }
+  
+  .checkout-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .place-order-container p {
+    font-size: 1.3rem;
+  }
+  
+  .place-order-container > h1 {
+    border-bottom: 2px solid #201414;
+  }
+  
+  .items-container {
+    box-shadow: 2px 2px 2px rgb(79, 80, 87);
+    margin: 15px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 3px;
+  }
+
+  .checkout-button {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: white;
+    background: blue;
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    cursor: pointer;
+}
+  
+  .item-quantity {
+    text-shadow: 1px 1px 1px rgb(49, 228, 49);
+    color: #2067a5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .left {
+    text-align: left;
+    width: 60%;
+    font-size: 100% !important;
+  
+    display: inline-block;
+  }
+  
+  .right {
+    text-align: right;
+    width: 30%;
+    font-size: 100% !important;
+  
+    display: inline-block;
+  }
+  
+  .shipping-container {
+    box-shadow: 4px 4px 4px rgb(56, 56, 59);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: rgb(226, 214, 214);
+  }
+  
+  .shipping-container > h2 {
+    color: gray;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 600px) {
+    .place-order-container {
+      width: 90% !important;
+    }
+  
+    .place-order-container h1 {
+      font-size: 97%;
+    }
+  
+    .left {
+      font-size: 90% !important;
+    }
+    .right {
+      font-size: 90% !important;
+    }
+    .shipping-container h2 {
+      font-size: 90% !important;
+    }
+  
+    .shipping-container p {
+      font-size: 80% !important;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .left {
+      font-size: 80% !important;
+    }
+  }

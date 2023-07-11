@@ -1,0 +1,71 @@
+.compare .table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 13px 21px -5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+    font-size: 16px;
+    table-layout: fixed;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.compare .table .bg-red {
+    background-color: #ff715b;
+}
+
+.compare .table .bg-green {
+    background-color: #48cfad;
+}
+
+.compare .table .bg-blue {
+    background-color: #0197F6;
+}
+
+.compare .table tr>td,
+.compare .table tr>th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.compare .table th[scope="row"] {
+    font-size: 16px;
+    color: #393c45;
+    font-weight: normal;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.compare .table tr.condition {
+    color: #fff;
+    font-size: 16px;
+}
+
+.compare .table tr span {
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.compare .table thead th {
+    font-size: 16px;
+    color: #393c45;
+    font-weight: normal;
+}
+
+.compare .thead-default th {
+    background-color: #fff;
+}
+
+@media (max-width: 960px) {
+    .compare .table {
+        overflow: auto;
+        table-layout: auto;
+    }
+    .compare .table th[scope="row"] {
+        padding-left: 20px;
+    padding-right: 20px;
+    }
+}

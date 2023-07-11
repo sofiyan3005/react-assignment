@@ -1,0 +1,9 @@
+.filter-content {
+    padding: 0px 30px 30px;
+}
+
+.filter-content form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
